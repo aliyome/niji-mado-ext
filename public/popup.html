@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="jp">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NijiMadoExt</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,500italic,700,700italic"
+    />
+  </head>
+  <body>
+    <!-- main -->
+    <div id="app"></div>
+
+    <!-- empty -->
+    <template id="empty">
+      <div class="row">
+        <span>配信が見つかりません</span>
+      </div>
+    </template>
+
+    <!-- row -->
+    <template id="live-row">
+      <div class="row">
+        <div class="avatar-wrap">
+          <img class="live-avatar" src="%avatar-url%" />
+        </div>
+        <div class="body-wrap">
+          <div class="title">%title%</div>
+          <div class="meta">
+            <div class="count">▶ %count%</div>
+            <div class="date">%date%</div>
+          </div>
+        </div>
+        <div class="thumb-wrap">
+          <img class="live-thumb" src="%thumb-url%" />
+        </div>
+      </div>
+    </template>
+
+    <script src="./popup.js"></script>
+  </body>
+</html>
