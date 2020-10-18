@@ -1,7 +1,7 @@
 {
   "name": "niji-mado-ext",
   "manifest_version": 2,
-  "version": "1.0",
+  "version": "1.1",
   "icons": {
     "32": "icons/32.png",
     "48": "icons/48.png",

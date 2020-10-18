@@ -14,6 +14,7 @@ function enableCheat() {
   const pause = window.localStorage.getItem('rulePauseOther');
   if (pause === '1') {
     window.localStorage.setItem('rulePauseOther', '0');
+    window.localStorage.setItem('ext', 'true');
   }
 }
 
